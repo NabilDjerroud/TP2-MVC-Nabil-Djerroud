@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #4CAF50;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    font-weight: 600;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.error {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
